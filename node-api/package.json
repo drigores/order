@@ -1,0 +1,19 @@
+{
+  "name": "node-api-order",
+  "version": "1.0.0",
+  "description": "Node API Order ",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "set DEBUG=express:* & nodemon app.js",
+    "test": "npm test"
+  },
+  "author": "Rodrigo Reis",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "mongoose": "^8.0.1"
+  }
+}
